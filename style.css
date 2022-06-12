@@ -1,0 +1,33 @@
+.collapse .btn {
+    width: 120px;
+}
+
+.car-1 {
+    max-height: calc(100vh - 120px);
+}
+
+.carousel-caption {
+    top: 50%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.carousel-indicators button {
+    border-radius: 50%;
+    width: 20px !important;
+    height: 20px !important;
+}
+
+.carousel-indicators {
+    top: 80%;
+    transform: translateY(-50%);
+    bottom: initial;
+}
+
+.carousel-item {
+    background-color: black !important;
+}
+
+.carousel-item img {
+    opacity: .7;
+}
